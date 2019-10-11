@@ -42,7 +42,8 @@ loop do
 		if ['multiplication', 'addition', 'subtraction',  'division'].include?(oper)
 			break
 		else
-			prompt("Please select either: multiplication, addition, subtraction, or division.")
+			prompt <<-MSG ("Please select either: 
+				multiplication, addition, subtraction, or division.") MSG
 		end
 	end
 

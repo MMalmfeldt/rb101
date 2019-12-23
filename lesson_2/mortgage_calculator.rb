@@ -64,7 +64,7 @@ loop do
 	go_again = ''
 
 	loop do
-		puts "Would you like to calculate again? (y/n)"
+		puts 'Would you like to calculate again? (y/n)' 
 		go_again = gets.chomp
 		if go_again == 'y' || 'n'
 			break
